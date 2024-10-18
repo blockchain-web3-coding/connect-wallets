@@ -17,8 +17,9 @@
   "author": "MyCabbages",
   "license": "MIT",
   "dependencies": {
-    "@coinbase/wallet-sdk": "^3.6.3",
-    "@walletconnect/ethereum-provider": "^2.7.0",
+    "@coinbase/wallet-sdk": "^4.1.0",
+    "@walletconnect/ethereum-provider": "^2.16.2",
+    "@walletconnect/utils": "^2.16.2",
     "ethers": "5.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -30,6 +31,7 @@
     "@types/node": "^22.7.1",
     "@types/react": "^18.3.8",
     "@types/react-dom": "^18.0.11",
+    "@walletconnect/types": "^2.16.2",
     "typescript": "^4.9.5"
   },
   "peerDependencies": {

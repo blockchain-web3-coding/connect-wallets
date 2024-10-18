@@ -72,7 +72,6 @@ const Web3Context = createContext<Web3ContextType | null>(null);
 
 interface Web3ProviderProps {
   children: ReactNode;
-  // walletConnectProjectId: string;
   connectorConfig: ConnectorConfig;
 }
 
